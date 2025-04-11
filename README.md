@@ -1,12 +1,80 @@
-# React + Vite
+# GeekFoods Landing Page 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive landing page built with **React** and **Vite** to showcase a fictional food delivery service — GeekFoods.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+Check it out here: [geekfood.vercel.app](https://geekfoods-landing-page.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📁 Folder Structure
+```
+GEEKFOODS/
+├── public/
+├── src/
+    ├── assets/
+    ├── components/
+        ├── CardComponent/
+        ├── FooterComponent/
+        ├── HeroComponent/ │
+        ├── NavBarComponent/ │
+        └── TestimonialComponent/ │
+    ├── App.jsx │
+    ├── index.css │
+    └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🔧 Tech Stack
+
+- ⚛️ React (Functional Components)
+- ⚡ Vite (Fast development build tool)
+- 🎨 CSS (Custom styling)
+- 🌐 Vercel (Deployment)
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/geekfoods-landing-page.git
+   cd geekfoods-landing-page
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Start the development server**
+    ```bash
+    npm run dev
+
+---
+
+## 🌟 Features
+- Modular component-based design
+- Responsive layout for all screen sizes
+- Clean and modern UI
+- Easy to customize and extend
+
+---
+
+## 🛠️ Components
+- NavBarComponent – Site navigation
+- HeroComponent – Catchy headline with CTA
+- CardComponent – Featured food items or categories
+- TestimonialComponent – Customer reviews
+- FooterComponent – Footer with social links and copyright
+
+---
+
+## 🙋‍♂️ Author
+**Naveen Kumar J**
+- *GitHub*: [https://github.com/Naveen-KumarJ]
+- *LinkedIn*: [https://www.linkedin.com/in/naveen-kumar-j-44b4061ab/]
